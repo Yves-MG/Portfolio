@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio de R.Y.</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <h1>R.Y. Portfolio</h1>
+    <ul>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#education">Éducation</a></li>
+    </ul>
+  </nav>
+
+  <!-- Section Héros -->
+  <section class="hero" id="about">
+    <div class="hero-text">
+      <h1>Bonjour, je suis <span class="highlight">RAMAROJAONA YVES</span></h1>
+      <h2>Développeur .NET</h2>
+      <p>
+        Développeur .NET back-end, je conçois et maintiens des architectures logicielles robustes et évolutives. Spécialisé dans le développement d’API et de services côté serveur, je veille à la performance et à la fiabilité des solutions livrées.
+      </p>
+
+      <div class="cv-socials">
+        <a href="https://drive.google.com/file/d/1GI3sR-832-1WO5u6Lx938bL0UdaZ4y1B/view?usp=sharing" download class="btn-download"  target="_blank">Télécharger le CV</a>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/yves-ramarojaona-88882b201/" aria-label="LinkedIn" 
+             target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Yves-MG" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/yves.jpg" alt="Photo de [Ton Nom]" />
+    </div>
+  </section>
+
+  <!-- Section Éducation -->
+  <section id="education" class="education">
+    <h2>Parcours académique</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">2019</div>
+        <div class="timeline-content">
+          Diplômé du lycée Sai Vidyanikethan avec un GPA de 8.2.
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2021</div>
+        <div class="timeline-content">
+          Études intermédiaires au Sri Surya Junior College, filière MPC, GPA de 6.2.
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2024</div>
+        <div class="timeline-content">
+          Licence en informatique (BCA) à Aditya Degree College, GPA 8.4.
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">En cours</div>
+        <div class="timeline-content">
+          Étudiant en Master (MCA) à l’Université d’Andhra, fin prévue : 2026.
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+<section id="skills" class="skills">
+  <h2>Compétences Techniques</h2>
+
+  <!-- Première ligne : Développement / Bases de données / Frameworks ORM -->
+  <div class="skills-columns">
+    <div class="skills-category">
+      <h3>Développement</h3>
+      <div class="skills-grid">
+        <div class="skill-item"><img src="assets/icons/csharp.png" alt="C#"><span>C#</span></div>
+        <div class="skill-item"><img src="assets/icons/dotnet.png" alt="ASP.NET"><span>ASP.NET</span></div>
+        <div class="skill-item"><img src="assets/icons/angular.png" alt="Angular"><span>Angular</span></div>
+        <div class="skill-item"><img src="assets/icons/javascript.png" alt="JavaScript"><span>JavaScript</span></div>
+        <div class="skill-item"><img src="assets/icons/node.png" alt="Node.js"><span>Node.js</span></div>
+        <div class="skill-item"><img src="assets/icons/php.png" alt="PHP"><span>PHP (Symfony)</span></div>
+      </div>
+    </div>
+
+    <div class="skills-category">
+      <h3>Bases de données</h3>
+      <div class="skills-grid">
+        <div class="skill-item"><img src="assets/icons/sqlserver.png" alt="SQL Server"><span>SQL Server</span></div>
+        <div class="skill-item"><img src="assets/icons/sqlite.png" alt="SQLite"><span>SQLite</span></div>
+        <div class="skill-item"><img src="assets/icons/mysql.png" alt="MySQL"><span>MySQL</span></div>
+      </div>
+    </div>
+
+    <div class="skills-category">
+      <h3>ORM</h3>
+      <div class="skills-grid">
+        <div class="skill-item"><img src="assets/icons/nhibernate.png" alt="NHibernate"><span>NHibernate</span></div>
+        <div class="skill-item"><img src="assets/icons/efcore.png" alt="Entity Framework"><span>Entity Framework</span></div>
+        <div class="skill-item"><img src="assets/icons/doctrine.png" alt="Doctrine"><span>Doctrine</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Deuxième ligne : Méthodologies / CI / Architecture -->
+  <div class="skills-columns">
+    <div class="skills-category">
+      <h3>Outils & Méthodologies </h3>
+      <div class="skills-grid">
+        <!-- <div class="skill-item"><img src="assets/icons/scrum.png" alt="Scrum"><span>Scrum</span></div> -->
+        <div class="skill-item"><img src="assets/icons/agile.png" alt="Agile"><span>Agile & Scrum</span></div>
+        <div class="skill-item"><img src="assets/icons/circleci.png" alt="CircleCI"><span>CircleCI</span></div>
+        <div class="skill-item"><img src="assets/icons/git.png" alt="Git"><span>Git </span></div>
+        <div class="skill-item"><img src="assets/icons/postman.png" alt="Postman"><span>Postman</span></div>
+        <div class="skill-item"><img src="assets/icons/phpadmin.png" alt="PhpMyAdmin"><span>PhpMyAdmin</span></div>
+        <div class="skill-item"><img src="assets/icons/ssms.png" alt="SSMS"><span>SSMS</span></div>
+        <div class="skill-item"><img src="assets/icons/Dbeaver.png" alt="DBeaver"><span>DBeaver</span></div>
+        <div class="skill-item"><img src="assets/icons/jira.png" alt="Trello, Jira, Notion"><span>Trello, Jira, Notion</span></div>
+        <div class="skill-item"><img src="assets/icons/docker.png" alt="Docker"><span>Docker</span></div>
+        
+      </div>
+    </div>
+
+    <!-- <div class="skills-category">
+      <h3>Intégration Continue</h3>
+      <div class="skills-grid">
+        <div class="skill-item"><img src="assets/icons/circleci.png" alt="CircleCI"><span>CircleCI</span></div>
+      </div>
+    </div> -->
+
+    <div class="skills-category">
+      <h3>Architecture, Design & API</h3>
+      <div class="skills-grid">
+        <div class="skill-item"><img src="assets/icons/n_tiers.png" alt="N-Tier"><span>N-Tier</span></div>
+        <div class="skill-item"><img src="assets/icons/clean.png" alt="Clean"><span>Clean Arch.</span></div>
+        <div class="skill-item"><img src="assets/icons/micro.png" alt="Microservices"><span>Microservices</span></div>
+        <div class="skill-item"><img src="assets/icons/api.png" alt="API REST"><span>API REST</span></div>
+        <div class="skill-item"><img src="assets/icons/GraphQl.png" alt="GraphQL"><span>GraphQL</span></div>
+        <div class="skill-item"><img src="assets/icons/mvc.png" alt="MVC"><span>MVC</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section Expérience -->
+    <section id="experience" class="experience">
+      <h2>Expérience professionnelle</h2>
+      <div class="skills-columns">
+        <div class="skills-category">
+          <h3>Développeur Full stack | Accès Banque Madagascar </h3> 
+          <p><strong>Aout 2022</strong></p>
+          <ul>
+            <li>Conception et développement d’applications (base de données, architecture N-Tier, intégration frontend/backend)</li>
+            <li>Création d’automates pour l’envoi d’e-mails et l’extraction de données</li>
+            <li>Mise en place de l’authentification (Basic, LDAP) et tests API avec Postman</li>
+            <li>Gestion des déploiements, correction de bugs et suivi des tâches via Trello</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3>Développeur Symfony| Newman’s Technologie</h3>
+          <p><strong>Aout 2022</strong></p>
+           <ul>
+            <li>Développement de pages web responsives.</li>
+            <li>Intégration d'API RESTful.</li>
+            <li>Tests et débogage des applications web.</li>
+          </ul>
+        </div>
+      </div>
+       <div class="skills-columns">
+        <div class="skills-category">
+          <h3></h3>
+          <p><strong>Aout 2022</strong></p>
+          <ul>
+            <li>Solution bancaire pour les retraits et dépôts rapides des clients</li>
+            <li>Ajout de nouvelles fonctionnalités à l’application existante afin d'améliorer l'expérienceutilisateur et l'efficacité des transactions</li>
+            <li>Développement et intégration de nouvelles fonctionnalités pour optimiser l’interaction client via Messenger</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3>Développeur Symfony| Newman’s Technologie</h3>
+          <p><strong>Juin 2022 - Décembre 2022</strong></p>
+         
+        </div>
+      </div>
+       <div class="skills-columns">
+        <div class="skills-category">
+          <h3>Développeur Full stack - Accès Banque Madagascar</h3>
+          <p><strong>Aout 2022</strong></p>
+          <ul>
+            <li>Solution bancaire pour les retraits et dépôts rapides des clients</li>
+            <li>Ajout de nouvelles fonctionnalités à l’application existante afin d'améliorer l'expérienceutilisateur et l'efficacité des transactions</li>
+            <li>Développement et intégration de nouvelles fonctionnalités pour optimiser l’interaction client via Messenger</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3>Développeur Symfony| Newman’s Technologie</h3>
+          <p><strong>Juin 2022 - Décembre 2022</strong></p>
+          <ul>
+            <li>Développement de pages web responsives.</li>
+            <li>Intégration d'API RESTful.</li>
+            <li>Tests et débogage des applications web.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+      <h2>Projets récents</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <h3>Portfolio Personnel</h3>
+          <p>Site web personnel pour présenter mes compétences et projets.</p>
+          <a href="#" class="btn-project">Voir le projet</a>
+        </div>
+        <div class="project-item">
+          <h3>Application de Gestion de Tâches</h3>
+          <p>Application web pour gérer les tâches quotidiennes avec React.js et Node.js.</p>
+          <a href="#" class="btn-project">Voir le projet</a>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 S.K. Portfolio. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
