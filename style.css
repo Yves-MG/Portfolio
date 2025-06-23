@@ -338,7 +338,7 @@ nav ul li a:hover {
   }
 }
 .experience {
-  padding: 4rem 5%;
+  /* padding: 4rem 5%; */
   background-color: #0e1628;
 }
 
@@ -353,4 +353,14 @@ nav ul li a:hover {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+}
+.projects {
+  /* padding: 4rem 5%; */
+  background-color: #0e1628;
+}
+.projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
 }
